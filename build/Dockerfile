@@ -8,4 +8,4 @@ ENV TZ="Asia/Shanghai"
 
 # 设置常用工具和设置时区为 Asia/Shanghai
 RUN sed -i 's/\(deb\|security\).debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list \
-    && apt-get update  
+    && apt update  
