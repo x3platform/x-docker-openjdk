@@ -11,5 +11,5 @@ docker pull x3platform/openjdk
 docker login -u [USERNAME] -p [PASSWORD]
 
 # build
-docker buildx build --push --tag x3platform/openjdk:8-jdk --platform linux/amd64,linux/arm64 --file ./build/Dockerfile ./build/
+docker buildx build --push --tag x3platform/openjdk:11-jdk --platform linux/amd64,linux/arm64 --file ./build/Dockerfile ./build/
 ```
